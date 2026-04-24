@@ -5,8 +5,15 @@
   "weekly_report_channel_id": 1485486879812878466,
   "litebans_webhook_channel_id": 1485820691411636266,
 
-  "role_sync_log_channel_id": 1485814668277846037,
-  "reminder_channel_id": 1485814668277846037,
+  "loa_request_channel_id": YOUR_LOA_REQUESTS_CHANNEL_ID,
+  "offboard_log_channel_id": YOUR_STAFF_RECORDS_CHANNEL_ID,
+  "staff_record_channel_id": YOUR_STAFF_RECORDS_CHANNEL_ID,
+  "strike_log_channel_id": YOUR_STAFF_INVESTIGATION_CHANNEL_ID,
+  "incident_log_channel_id": YOUR_STAFF_INVESTIGATION_CHANNEL_ID,
+  "case_log_channel_id": YOUR_STAFF_INVESTIGATION_CHANNEL_ID,
+  "role_sync_log_channel_id": YOUR_SYSTEM_CONFIG_CHANNEL_ID,
+  "reminder_channel_id": YOUR_SYSTEM_CONFIG_CHANNEL_ID,
+
   "reminder_days_before_loa_end": 2,
   "reminder_days_before_strike_expiry": 3,
 
@@ -17,9 +24,4 @@
   "minimum_weekly_hours": 4.0,
   "inactivity_days_for_strike": 3,
   "warning_text": "If you receive further strikes, you may risk getting fired."
-
-  "staff_record_channel_id": 1497249480251277354,
-  "strike_log_channel_id": 1485814776176185494,
-  "incident_log_channel_id": 1485814776176185494,
-  "case_log_channel_id": 1485814776176185494
 }
