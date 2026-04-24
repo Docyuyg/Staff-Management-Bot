@@ -4,12 +4,17 @@
   "staff_log_channel_id": 1485814668277846037,
   "weekly_report_channel_id": 1485486879812878466,
   "litebans_webhook_channel_id": 1485820691411636266,
+
+  "role_sync_log_channel_id": 1497088467782467644,
+  "reminder_channel_id": 1485814668277846037,
+  "reminder_days_before_loa_end": 2,
+  "reminder_days_before_strike_expiry": 3,
+
   "management_role_ids": [1016143751799918602],
   "auto_strike_role_ids": [1016154034392014869, 1016151968068141067, 1016150261342928916],
   "upper_staff_role_ids": [1016146618170495077, 1016145868111482973, 1016147595128754207],
+
   "minimum_weekly_hours": 4.0,
   "inactivity_days_for_strike": 3,
   "warning_text": "If you receive further strikes, you may risk getting fired."
-  "role_sync_log_channel_id": 1497088467782467644,
-  "reminder_channel_id": 1485814668277846037
 }
