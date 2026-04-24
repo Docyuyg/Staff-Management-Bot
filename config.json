@@ -17,4 +17,9 @@
   "minimum_weekly_hours": 4.0,
   "inactivity_days_for_strike": 3,
   "warning_text": "If you receive further strikes, you may risk getting fired."
+
+  "staff_record_channel_id": 1497249480251277354,
+  "strike_log_channel_id": 1485814776176185494,
+  "incident_log_channel_id": 1485814776176185494,
+  "case_log_channel_id": 1485814776176185494
 }
