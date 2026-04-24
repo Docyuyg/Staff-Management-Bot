@@ -1,27 +1,67 @@
 {
   "guild_id": 1016114878676734032,
   "timezone": "America/Chicago",
+
   "staff_log_channel_id": 1485814668277846037,
   "weekly_report_channel_id": 1485486879812878466,
   "litebans_webhook_channel_id": 1485820691411636266,
 
-  "loa_request_channel_id": 1497248632129323179,
-  "offboard_log_channel_id": 1497249480251277354,
-  "staff_record_channel_id": 1497249480251277354,
-  "strike_log_channel_id": 1497258020139171850,
-  "incident_log_channel_id": 1497258020139171850,
-  "case_log_channel_id": 1497258020139171850,
-  "role_sync_log_channel_id": 1485814668277846037,
-  "reminder_channel_id": 1485814668277846037,
+  "loa_request_channel_id": 0,
+  "offboard_log_channel_id": 0,
+  "staff_record_channel_id": 0,
+  "strike_log_channel_id": 0,
+  "incident_log_channel_id": 0,
+  "case_log_channel_id": 0,
+  "role_sync_log_channel_id": 0,
+  "reminder_channel_id": 0,
+  "no_lower_staff_activity_channel_id": 0,
 
   "reminder_days_before_loa_end": 2,
   "reminder_days_before_strike_expiry": 3,
 
-  "management_role_ids": [1016143751799918602],
-  "auto_strike_role_ids": [1016154034392014869, 1016151968068141067, 1016150261342928916],
-  "upper_staff_role_ids": [1016146618170495077, 1016145868111482973, 1016147595128754207],
+  "management_ping_target_ids": [
+    1016147595128754207,
+    1016146618170495077,
+    1016145868111482973,
+    1016143751799918602
+  ],
+
+  "regular_staff_ping_target_ids": [
+    1016154034392014869,
+    1016151968068141067,
+    1016150261342928916
+  ],
+
+  "management_role_ids": [
+    1016143751799918602
+  ],
+
+  "case_close_role_ids": [
+    1016145868111482973
+  ],
+
+  "auto_strike_role_ids": [
+    1016154034392014869,
+    1016151968068141067,
+    1016150261342928916
+  ],
+
+  "upper_staff_role_ids": [
+    1016146618170495077,
+    1016145868111482973,
+    1016147595128754207
+  ],
 
   "minimum_weekly_hours": 4.0,
   "inactivity_days_for_strike": 3,
-  "warning_text": "If you receive further strikes, you may risk getting fired."
+
+  "warning_text": "If you receive further strikes, you may risk getting fired.",
+
+  "strike_decay_days": {
+    "weekly_playtime": 14,
+    "inactivity": 14,
+    "manual_minor": 14,
+    "manual_major": 30,
+    "manual_severe": 45
+  }
 }
