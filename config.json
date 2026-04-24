@@ -8,9 +8,9 @@
   "loa_request_channel_id": 1497248632129323179,
   "offboard_log_channel_id": 1497249480251277354,
   "staff_record_channel_id": 1497249480251277354,
-  "strike_log_channel_id": 1485814776176185494,
-  "incident_log_channel_id": 1485814776176185494,
-  "case_log_channel_id": 1485814776176185494,
+  "strike_log_channel_id": 1497258020139171850,
+  "incident_log_channel_id": 1497258020139171850,
+  "case_log_channel_id": 1497258020139171850,
   "role_sync_log_channel_id": 1485814668277846037,
   "reminder_channel_id": 1485814668277846037,
 
